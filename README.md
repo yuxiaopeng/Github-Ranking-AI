@@ -1,7 +1,7 @@
 [Github Ranking](./README.md)
 ==========
 
-**A list of the most github stars and forks repositories.**
+**A list of the most AI github stars repositories.**
 
 *Last Automatic Update Time: 2023-05-18T13:20:29Z*
 
