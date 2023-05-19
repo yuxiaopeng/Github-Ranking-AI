@@ -105,23 +105,6 @@ class WriteFile(object):
         self.col = ['rank', 'item', 'repo_name', 'stars', 'forks', 'language', 'repo_url', 'username', 'issues',
                     'last_commit', 'description']
         self.repo_list = []
-        # self.repo_list.extend([{
-        #     "desc": "Stars",
-        #     "desc_md": "Stars",
-        #     "title_readme": "Most Stars",
-        #     "title_100": "Top 100 Stars",
-        #     "file_100": "Top-100-stars.md",
-        #     "data": repos_stars,
-        #     "item": "top-100-stars",
-        # }, {
-        #     "desc": "Forks",
-        #     "desc_md": "Forks",
-        #     "title_readme": "Most Forks",
-        #     "title_100": "Top 100 Forks",
-        #     "file_100": "Top-100-forks.md",
-        #     "data": repos_forks,
-        #     "item": "top-100-forks",
-        # }])
         for i in range(len(languages)):
             lang = languages[i]
             lang_md = languages_md[i]
@@ -138,7 +121,7 @@ class WriteFile(object):
     @staticmethod
     def write_head_contents():
         # write the head and contents of README.md
-        write_time = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+        write_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
         head_contents = inspect.cleandoc("""[Github Ranking](./README.md)
             ==========
 
