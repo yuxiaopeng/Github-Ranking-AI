@@ -7,7 +7,7 @@ import time
 def get_access_token():
     # with open('../access_token.txt', 'r') as f:
    #     access_token = f.read().strip()
-access_token = ${{ secrets.GITHUB_TOKEN }}
+access_token = ${{ github.token }}
     return access_token
 
 
