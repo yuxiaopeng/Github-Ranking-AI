@@ -91,15 +91,6 @@ class ProcessorGQL(object):
         return repos
 
     def get_all_repos(self):
-        # get all repos of most stars and forks, and different languages
-        # print("Get repos of most stars...")
-        # repos_stars = self.get_repos(self.gql_stars)
-        # print("Get repos of most stars success!")
-        #
-        # print("Get repos of most forks...")
-        # repos_forks = self.get_repos(self.gql_forks)
-        # print("Get repos of most forks success!")
-
         repos_languages = {}
         for lang in languages:
             print("Get most stars repos of {}...".format(lang))
@@ -156,9 +147,7 @@ class WriteFile(object):
             *Last Automatic Update Time: {write_time}*
 
             ## Table of Contents
-
-            * [Most Stars](#most-stars)
-            * [Most Forks](#most-forks)""".format(write_time=write_time)) + table_of_contents
+            """.format(write_time=write_time)) + table_of_contents
         write_text("../README.md", 'w', head_contents)
 
     def write_readme_lang_md(self):
