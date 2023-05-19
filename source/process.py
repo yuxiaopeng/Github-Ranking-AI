@@ -4,6 +4,9 @@ import os
 import pandas as pd
 from common import get_graphql_data, write_text, write_ranking_repo
 import inspect
+import sys
+
+common.git_token = sys.argv[0]
 
 languages = ['LLM', 'chatGPT']  # For test
 languages_md = ['LLM', 'chatGPT']  # For test
