@@ -6,9 +6,9 @@
 # show run time
 echo -e "\n----------Run Time:----------"
 date
-git pull
+# git pull
 python3 source/process.py 
-git add .
-today=`date +"%Y-%m-%d"`
-git commit -m "auto update $today"
-git push
+# git add .
+# today=`date +"%Y-%m-%d"`
+# git commit -m "auto update $today"
+# git push
