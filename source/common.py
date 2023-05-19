@@ -5,8 +5,9 @@ import time
 
 
 def get_access_token():
-    with open('../access_token.txt', 'r') as f:
-        access_token = f.read().strip()
+    # with open('../access_token.txt', 'r') as f:
+   #     access_token = f.read().strip()
+access_token = ${{ secrets.GITHUB_TOKEN }}
     return access_token
 
 
@@ -40,7 +41,7 @@ def get_api_repos(API_URL):
     """
     get repos of api, return repos list
     """
-    access_token = "${{TOKEN}}"
+    access_token = get_access_token()
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
