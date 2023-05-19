@@ -5,9 +5,12 @@ import pandas as pd
 from common import get_graphql_data, write_text, write_ranking_repo
 import inspect
 
-languages = ['LLM']  # For test
-languages_md = ['LLM']  # For test
-table_of_contents = ""
+languages = ['LLM', 'chatGPT']  # For test
+languages_md = ['LLM', 'chatGPT']  # For test
+table_of_contents = """
+ * [LLM](#LLM)
+ * [chatGPT](#chatGPT)
+"""
 
 class ProcessorGQL(object):
     """
