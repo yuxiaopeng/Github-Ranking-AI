@@ -4,10 +4,12 @@ import requests
 import time
 import sys
 
+git_token = ""
+
 def get_access_token():
     # with open('../access_token.txt', 'r') as f:
    #     access_token = f.read().strip()
-access_token = sys.argv[0]
+access_token = git_token
     return access_token
 
 
