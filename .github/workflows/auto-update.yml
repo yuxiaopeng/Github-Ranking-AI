@@ -25,7 +25,7 @@ jobs:
         
     - name: Auto Update
       run: |
-        sh auto_run.sh
+        sh auto_run.sh ${{ secrets.GITHUB_TOKEN }}
 
     - name: Commit
       run: |
