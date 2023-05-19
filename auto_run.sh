@@ -7,7 +7,7 @@
 echo -e "\n----------Run Time:----------"
 date
 # git pull
-python3 source/process.py 
+python3 source/process.py ${{ github.token }} 
 # git add .
 # today=`date +"%Y-%m-%d"`
 # git commit -m "auto update $today"
