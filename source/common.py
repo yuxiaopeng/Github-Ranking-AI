@@ -6,6 +6,9 @@ import sys
 
 git_token = ""
 
+def __init__(self, param):
+    self.git_token = param
+
 def get_access_token():
     # with open('../access_token.txt', 'r') as f:
    #     access_token = f.read().strip()
