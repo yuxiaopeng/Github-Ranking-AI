@@ -2,14 +2,13 @@
 from datetime import datetime
 import os
 import pandas as pd
-from common import
-    # get_graphql_data, write_text, write_ranking_repo
+from common import get_graphql_data, write_text, write_ranking_repo
 import inspect
 import sys
 
-print("sys.argv[0]".sys.argv[0])
+print("sys.argv[1]:" + sys.argv[1])
 
-common(sys.argv[0])
+common(sys.argv[1])
 
 languages = ['LLM', 'chatGPT']  # For test
 languages_md = ['LLM', 'chatGPT']  # For test

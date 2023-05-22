@@ -4,10 +4,10 @@ import requests
 import time
 import sys
 
-git_token = ""
+# git_token = ""
 
-def __init__(self, param):
-    self.git_token = param
+    def __init__(self, param):
+        self.git_token: object = param
 
 def get_access_token():
     # with open('../access_token.txt', 'r') as f:
