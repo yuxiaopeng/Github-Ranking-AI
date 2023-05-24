@@ -32,11 +32,10 @@ jobs:
         git config --global user.email uxiaopeng@gmail.com
         git config --global user.name yuxiaopeng
         git add .
-        #git commit -m"action:`date +'%Y-%m-%d'`"
         git commit -m"action:`date`"
-        git pull --rebase
+        git push
 
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+#     - name: Push changes
+#       uses: ad-m/github-push-action@master
+#       with:
+#         github_token: ${{ secrets.GITHUB_TOKEN }}
