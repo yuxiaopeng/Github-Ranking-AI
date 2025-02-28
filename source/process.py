@@ -2,7 +2,7 @@
 from datetime import datetime
 import os
 import pandas as pd
-# from common import Git,get_graphql_data, write_text, write_ranking_repo
+from common import Git,get_graphql_data, write_text, write_ranking_repo
 import inspect
 import sys
 import json
