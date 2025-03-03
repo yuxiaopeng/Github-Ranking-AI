@@ -13,6 +13,10 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write  # 允许推送代码
+      packages: read   # 允许读取包
+
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.9
