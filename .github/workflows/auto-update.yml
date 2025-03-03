@@ -4,7 +4,7 @@ name: Auto update
 
 on:
   schedule:
-    - cron: '5 3 * * *'
+    - cron: '24 19 * * *'
 
 jobs:
   build:
