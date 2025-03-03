@@ -13,8 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-      with:
-        ref: develop
     - name: Set up Python 3.9
       uses: actions/setup-python@v3
       with:
@@ -35,4 +33,9 @@ jobs:
         git config --global user.name yuxiaopeng
         git add .
         git commit -m"action:`date`"
-        git push develop:develop
+        git push
+
+#     - name: Push changes
+#       uses: ad-m/github-push-action@master
+#       with:
+#         github_token: ${{ secrets.GITHUB_TOKEN }}

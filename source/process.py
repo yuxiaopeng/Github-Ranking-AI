@@ -2,8 +2,12 @@
 from datetime import datetime
 import os
 import pandas as pd
-from common import get_graphql_data, write_text, write_ranking_repo
+# from common import Git,get_graphql_data, write_text, write_ranking_repo
 import inspect
+import sys
+import json
+import requests
+import time
 
 languages = ['LLM', 'chatGPT']  # For test
 languages_md = ['LLM', 'chatGPT']  # For test
@@ -11,7 +15,6 @@ table_of_contents = """
  * [LLM](#LLM)
  * [chatGPT](#chatGPT)
 """
-
 
 class ProcessorGQL(object):
     """
@@ -33,7 +36,9 @@ class ProcessorGQL(object):
                             name
                             url
                             forkCount
-                            stargazerCount
+                            stargazers {
+                                totalCount
+                            }
                             owner {
                                 login
                             }
@@ -53,9 +58,9 @@ class ProcessorGQL(object):
         """
         self.bulk_size = 50
         self.bulk_count = 2
-        self.gql_stars = self.gql_format % ("stars:>1000 sort:stars", self.bulk_size, "%s")
-        self.gql_forks = self.gql_format % ("forks:>1000 sort:forks", self.bulk_size, "%s")
-        self.gql_stars_lang = self.gql_format % ("language:%s stars:>0 sort:stars", self.bulk_size, "%s")
+        # self.gql_stars = self.gql_format % ("LLM sort:stars", self.bulk_size, "%s")
+        # self.gql_forks = self.gql_format % ("LLM sort:forks", self.bulk_size, "%s")
+        self.gql_stars_lang = self.gql_format % ("%s stars:>0 sort:stars", self.bulk_size, "%s")
 
         self.col = ['rank', 'item', 'repo_name', 'stars', 'forks', 'language', 'repo_url', 'username', 'issues',
                     'last_commit', 'description']
@@ -67,7 +72,7 @@ class ProcessorGQL(object):
             repo_data = repo['node']
             res.append({
                 'name': repo_data['name'],
-                'stargazers_count': repo_data['stargazerCount'],
+                'stargazers_count': repo_data['stargazers']['totalCount'],
                 'forks_count': repo_data['forkCount'],
                 'language': repo_data['primaryLanguage']['name'] if repo_data['primaryLanguage'] is not None else None,
                 'html_url': repo_data['url'],
@@ -90,48 +95,20 @@ class ProcessorGQL(object):
         return repos
 
     def get_all_repos(self):
-        # get all repos of most stars and forks, and different languages
-        print("Get repos of most stars...")
-        repos_stars = self.get_repos(self.gql_stars)
-        print("Get repos of most stars success!")
-
-        print("Get repos of most forks...")
-        repos_forks = self.get_repos(self.gql_forks)
-        print("Get repos of most forks success!")
-
         repos_languages = {}
         for lang in languages:
             print("Get most stars repos of {}...".format(lang))
             repos_languages[lang] = self.get_repos(self.gql_stars_lang % (lang, '%s'))
             print("Get most stars repos of {} success!".format(lang))
-        return repos_stars, repos_forks, repos_languages
+        return repos_languages
 
 
 class WriteFile(object):
-    def __init__(self, repos_stars, repos_forks, repos_languages):
-        self.repos_stars = repos_stars
-        self.repos_forks = repos_forks
+    def __init__(self, repos_languages):
         self.repos_languages = repos_languages
         self.col = ['rank', 'item', 'repo_name', 'stars', 'forks', 'language', 'repo_url', 'username', 'issues',
                     'last_commit', 'description']
         self.repo_list = []
-        self.repo_list.extend([{
-            "desc": "Stars",
-            "desc_md": "Stars",
-            "title_readme": "Most Stars",
-            "title_100": "Top 100 Stars",
-            "file_100": "Top-100-stars.md",
-            "data": repos_stars,
-            "item": "top-100-stars",
-        }, {
-            "desc": "Forks",
-            "desc_md": "Forks",
-            "title_readme": "Most Forks",
-            "title_100": "Top 100 Forks",
-            "file_100": "Top-100-forks.md",
-            "data": repos_forks,
-            "item": "top-100-forks",
-        }])
         for i in range(len(languages)):
             lang = languages[i]
             lang_md = languages_md[i]
@@ -148,7 +125,7 @@ class WriteFile(object):
     @staticmethod
     def write_head_contents():
         # write the head and contents of README.md
-        write_time = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+        write_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
         head_contents = inspect.cleandoc("""[Github Ranking](./README.md)
             ==========
 
@@ -157,9 +134,7 @@ class WriteFile(object):
             *Last Automatic Update Time: {write_time}*
 
             ## Table of Contents
-
-            * [Most Stars](#most-stars)
-            * [Most Forks](#most-forks)""".format(write_time=write_time)) + table_of_contents
+            """.format(write_time=write_time)) + table_of_contents
         write_text("../README.md", 'w', head_contents)
 
     def write_readme_lang_md(self):
@@ -193,7 +168,7 @@ class WriteFile(object):
         df_all = pd.DataFrame(columns=self.col)
         for repo in self.repo_list:
             df_repos = self.repo_to_df(repos=repo["data"], item=repo["item"])
-            df_all = df_all.append(df_repos, ignore_index=True)
+            df_all = df_all._append(df_repos, ignore_index=True)
 
         save_date = datetime.utcnow().strftime("%Y-%m-%d")
         os.makedirs('../Data', exist_ok=True)
@@ -206,15 +181,93 @@ def run_by_gql():
     os.chdir(os.path.join(ROOT_PATH, 'source'))
 
     processor = ProcessorGQL()  # use Github GraphQL API v4
-    repos_stars, repos_forks, repos_languages = processor.get_all_repos()
-    wt_obj = WriteFile(repos_stars, repos_forks, repos_languages)
+    repos_languages = processor.get_all_repos()
+    wt_obj = WriteFile(repos_languages)
     wt_obj.write_head_contents()
     wt_obj.write_readme_lang_md()
     wt_obj.save_to_csv()
+
+
+def write_text(file_name, method, text):
+    """
+    write text to file
+    method: 'a'-append, 'w'-overwrite
+    """
+    with open(file_name, method, encoding='utf-8') as f:
+        f.write(text)
+
+
+def write_ranking_repo(file_name, method, repos):
+    # method: 'a'-append or 'w'-overwrite
+    table_head = "| Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |\n\
+| ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |\n"
+    with open(file_name, method, encoding='utf-8') as f:
+        f.write(table_head)
+        for idx, repo in enumerate(repos):
+            repo_description = repo['description']
+            if repo_description is not None:
+                repo_description = repo_description.replace('|', '\|')  # in case there is '|' in description
+            f.write("| {} | [{}]({}) | {} | {} | {} | {} | {} | {} |\n".format(
+                idx + 1, repo['name'], repo['html_url'], repo['stargazers_count'], repo['forks_count'],
+                repo['language'], repo['open_issues_count'], repo_description, repo['pushed_at']
+            ))
+        f.write('\n')
+
+
+def get_api_repos(API_URL):
+    """
+    get repos of api, return repos list
+    """
+    access_token = sys.argv[1]
+    print("access_token:" + sys.argv[1])
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'Accept-Language': 'zh-CN,zh;q=0.9',
+        'Authorization': 'token {}'.format(access_token),
+    }
+    s = requests.session()
+    s.keep_alive = False  # don't keep the session
+    time.sleep(3)  # not get so fast
+    # requests.packages.urllib3.disable_warnings() # disable InsecureRequestWarning of verify=False,
+    r = requests.get(API_URL, headers=headers)
+    if r.status_code != 200:
+        raise ValueError('Can not retrieve from {}'.format(API_URL))
+    repos_dict = json.loads(r.content)
+    repos = repos_dict['items']
+    return repos
+
+
+def get_graphql_data(GQL):
+    """
+    use graphql to get data
+    """
+    access_token = sys.argv[1]
+    print("access_token:" + sys.argv[1])
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'Accept-Language': 'zh-CN,zh;q=0.9',
+        'Authorization': 'bearer {}'.format(access_token),
+    }
+    s = requests.session()
+    s.keep_alive = False  # don't keep the session
+    graphql_api = "https://api.github.com/graphql"
+    for _ in range(5):
+        time.sleep(2)  # not get so fast
+        try:
+            # requests.packages.urllib3.disable_warnings() # disable InsecureRequestWarning of verify=False,
+            r = requests.post(url=graphql_api, json={"query": GQL}, headers=headers, timeout=30)
+            if r.status_code != 200:
+                print(f'Can not retrieve from {GQL}. Response status is {r.status_code}, content is {r.content}.')
+            else:
+                return r.json()
+        except Exception as e:
+            print(e)
+            time.sleep(5)
 
 
 if __name__ == "__main__":
     t1 = datetime.now()
     run_by_gql()
     print("Total time: {}s".format((datetime.now() - t1).total_seconds()))
-

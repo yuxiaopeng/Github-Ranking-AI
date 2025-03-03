@@ -15,7 +15,6 @@ def get_access_token():
 # access_token = git_token
     return git_token
 
-
 def write_text(file_name, method, text):
     """
     write text to file
