@@ -60,7 +60,7 @@ class ProcessorGQL(object):
         self.bulk_count = 2
         self.gql_stars = self.gql_format % ("stars:>1000 sort:stars", self.bulk_size, "%s")
         self.gql_forks = self.gql_format % ("forks:>1000 sort:forks", self.bulk_size, "%s")
-        self.gql_stars_lang = self.gql_format % ("%s stars:>0 sort:stars", self.bulk_size, "%s")
+        self.gql_stars_lang = self.gql_format % ("%s stars:>100000 sort:stars", self.bulk_size, "%s")
 
         self.col = ['rank', 'item', 'repo_name', 'stars', 'forks', 'language', 'repo_url', 'username', 'issues',
                     'last_commit', 'description']
