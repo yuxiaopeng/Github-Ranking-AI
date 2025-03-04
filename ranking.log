@@ -1,48 +1,877 @@
-auto update start
 -e 
 ----------Run Time:----------
-Tue Mar  4 08:56:48 UTC 2025
+Tue Mar  4 10:53:10 UTC 2025
 auto_run.sh
-Get repos of most stars...
-Get repos of most stars success!
-Get repos of most forks...
-Get repos of most forks success!
 Get most stars repos of LLM...
+Requesting query{
+    search(query: "LLM stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "LLM stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of LLM success!
 Get most stars repos of ChatGPT...
+Requesting query{
+    search(query: "ChatGPT stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "ChatGPT stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of ChatGPT success!
 Get most stars repos of OpenAI...
+Requesting query{
+    search(query: "OpenAI stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "OpenAI stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of OpenAI success!
 Get most stars repos of Deepseek...
+Requesting query{
+    search(query: "Deepseek stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "Deepseek stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of Deepseek success!
 Get most stars repos of LLaMA...
+Requesting query{
+    search(query: "LLaMA stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "LLaMA stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of LLaMA success!
 Get most stars repos of Chatbot...
+Requesting query{
+    search(query: "Chatbot stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "Chatbot stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of Chatbot success!
 Get most stars repos of AI Agents...
+Requesting query{
+    search(query: "AI Agents stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "AI Agents stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of AI Agents success!
 Get most stars repos of Claude...
+Requesting query{
+    search(query: "Claude stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "Claude stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of Claude success!
 Get most stars repos of RAG...
+Requesting query{
+    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of RAG success!
 Get most stars repos of Mistral...
+Requesting query{
+    search(query: "Mistral stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "Mistral stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of Mistral success!
 Get most stars repos of Transformer...
+Requesting query{
+    search(query: "Transformer stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "Transformer stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of Transformer success!
 Get most stars repos of MoE...
+Requesting query{
+    search(query: "MoE stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "MoE stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of MoE success!
 Get most stars repos of AGI...
+Requesting query{
+    search(query: "AGI stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "AGI stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of AGI success!
 Get most stars repos of Generative AI...
+Requesting query{
+    search(query: "Generative AI stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "Generative AI stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of Generative AI success!
 Get most stars repos of AI...
+Requesting query{
+    search(query: "AI stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
+Requesting query{
+    search(query: "AI stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of AI success!
-Save Most Stars in README.md!
-Save Top 100 Stars in Top100/Top-100-stars.md!
-
-Save Most Forks in README.md!
-Save Top 100 Forks in Top100/Top-100-forks.md!
-
 Save LLM in README.md!
 Save Top 100 Stars in LLM in Top100/LLM.md!
 
@@ -89,6 +918,6 @@ Save AI in README.md!
 Save Top 100 Stars in AI in Top100/AI.md!
 
 Save data to Data/github-ranking-2025-03-04.csv
-Total time: 126.572351s
+Total time: 111.196941s
 auto update end
 commit&push start
