@@ -32,18 +32,15 @@ jobs:
     - name: Auto Update
       run: |
         echo "auto update start" >> ranking.log
-        sh auto_run.sh >> ranking.log
+        sh auto_run.sh ${{ secrets.GITHUB_TOKEN }} >> ranking.log
         echo "auto update end" >> ranking.log
 
     - name: Commit
       run: |
+        echo "commit&push start" >> ranking.log
         git config --global user.email uxiaopeng@gmail.com
         git config --global user.name yuxiaopeng
         git add .
         git commit -m"action:`date`"
         git push
-
-#     - name: Push changes
-#       uses: ad-m/github-push-action@master
-#       with:
-#         github_token: ${{ secrets.GITHUB_TOKEN }}
+        echo "commit&push end" >> ranking.log

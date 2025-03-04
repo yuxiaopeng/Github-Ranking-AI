@@ -2,12 +2,16 @@
 import json
 import requests
 import time
+import sys
 
+def __init__(self, param):
+    self.git_token: object = param
 
 def get_access_token():
-    with open('../access_token.txt', 'r') as f:
-        access_token = f.read().strip()
-    return access_token
+    # with open('../access_token.txt', 'r') as f:
+    #     access_token = f.read().strip()
+    # return access_token
+    return git_token
 
 
 def write_text(file_name, method, text):
