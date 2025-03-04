@@ -1,14 +1,14 @@
 [Github Ranking](../README.md)
 ==========
 
-## Top 100 Stars in ChatGPT
+## Top 100 Stars in OpenAI
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
 | 1 | [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 410701 | 39081 | TypeScript | 183 | freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free. | 2025-03-04T07:02:31Z |
 | 2 | [free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 351591 | 62909 | HTML | 31 | :books: Freely available programming books | 2025-02-14T02:09:41Z |
 | 3 | [awesome](https://github.com/sindresorhus/awesome) | 349673 | 28636 | None | 12 | 😎 Awesome lists about all kinds of interesting topics | 2025-02-28T04:32:36Z |
-| 4 | [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 346926 | 32169 | Markdown | 192 | Master programming by recreating your favorite technologies from scratch. | 2024-09-03T14:39:35Z |
+| 4 | [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 346927 | 32169 | Markdown | 192 | Master programming by recreating your favorite technologies from scratch. | 2024-09-03T14:39:35Z |
 | 5 | [public-apis](https://github.com/public-apis/public-apis) | 328923 | 34880 | Python | 51 | A collective list of free APIs | 2024-10-31T19:50:02Z |
 | 6 | [coding-interview-university](https://github.com/jwasham/coding-interview-university) | 312597 | 78047 | None | 53 | A complete computer science study plan to become a software engineer. | 2024-12-05T23:47:30Z |
 | 7 | [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) | 309465 | 40422 | TypeScript | 153 | Interactive roadmaps, guides and other educational content to help developers grow in their careers. | 2025-03-03T18:31:50Z |
@@ -67,7 +67,7 @@
 | 60 | [deno](https://github.com/denoland/deno) | 102001 | 5501 | Rust | 1974 | A modern runtime for JavaScript and TypeScript. | 2025-03-03T20:44:07Z |
 | 61 | [nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) | 101939 | 10335 | Dockerfile | 42 | :white_check_mark:  The Node.js best practices list (July 2024) | 2024-07-04T03:41:45Z |
 | 62 | [rust](https://github.com/rust-lang/rust) | 101662 | 13158 | Rust | 10072 | Empowering everyone to build reliable and efficient software. | 2025-03-04T05:47:35Z |
-| 63 | [HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 99212 | 9829 | Python | 197 | :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub. | 2025-02-28T06:18:37Z |
+| 63 | [HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 99213 | 9829 | Python | 197 | :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub. | 2025-02-28T06:18:37Z |
 | 64 | [terminal](https://github.com/microsoft/terminal) | 97250 | 8470 | C++ | 1597 | The new Windows Terminal and the original Windows console host, all in the same place! | 2025-03-03T20:54:52Z |
 | 65 | [angular](https://github.com/angular/angular) | 97095 | 25922 | TypeScript | 1520 | Deliver web apps with confidence 🚀 | 2025-03-03T23:03:36Z |
 | 66 | [material-ui](https://github.com/mui/material-ui) | 94932 | 32515 | TypeScript | 1674 | Material UI: Comprehensive React component library that implements Google's Material Design. Free forever. | 2025-03-04T06:23:39Z |
@@ -92,8 +92,8 @@
 | 85 | [tailwindcss](https://github.com/tailwindlabs/tailwindcss) | 86090 | 4397 | TypeScript | 89 | A utility-first CSS framework for rapid UI development. | 2025-03-03T13:03:53Z |
 | 86 | [storybook](https://github.com/storybookjs/storybook) | 86001 | 9457 | TypeScript | 2058 | Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation | 2025-03-04T05:50:38Z |
 | 87 | [Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners) | 85327 | 12673 | JavaScript | 57 | 24 Lessons, 12 Weeks, Get Started as a Web Developer | 2025-03-01T13:45:27Z |
-| 88 | [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) | 84641 | 10934 | None | 266 | None | 2025-02-24T03:49:25Z |
-| 89 | [rustdesk](https://github.com/rustdesk/rustdesk) | 83284 | 11678 | Rust | 48 | An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer. | 2025-03-04T06:11:18Z |
+| 88 | [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) | 84641 | 10935 | None | 266 | None | 2025-02-24T03:49:25Z |
+| 89 | [rustdesk](https://github.com/rustdesk/rustdesk) | 83284 | 11677 | Rust | 48 | An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer. | 2025-03-04T06:11:18Z |
 | 90 | [nvm](https://github.com/nvm-sh/nvm) | 82600 | 8248 | Shell | 301 | Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions | 2025-02-06T16:01:44Z |
 | 91 | [django](https://github.com/django/django) | 82565 | 32319 | Python | 0 | The Web framework for perfectionists with deadlines. | 2025-03-03T10:37:01Z |
 | 92 | [app-ideas](https://github.com/florinpop17/app-ideas) | 82375 | 9662 | None | 126 | A Collection of application ideas which can be used to improve your coding skills. | 2024-08-16T09:41:10Z |

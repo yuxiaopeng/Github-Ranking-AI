@@ -1,7 +1,7 @@
 [Github Ranking](../README.md)
 ==========
 
-## Top 100 Stars in ChatGPT
+## Top 100 Stars
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
@@ -22,7 +22,7 @@
 | 15 | [Python](https://github.com/TheAlgorithms/Python) | 197848 | 46336 | Python | 64 | All Algorithms implemented in Python | 2025-03-03T18:10:59Z |
 | 16 | [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) | 190307 | 30509 | JavaScript | 130 | 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings | 2025-02-12T16:19:59Z |
 | 17 | [linux](https://github.com/torvalds/linux) | 188941 | 55334 | C | 0 | Linux kernel source tree | 2025-03-03T17:55:42Z |
-| 18 | [tensorflow](https://github.com/tensorflow/tensorflow) | 188360 | 74562 | C++ | 788 | An Open Source Machine Learning Framework for Everyone | 2025-03-04T07:49:30Z |
+| 18 | [tensorflow](https://github.com/tensorflow/tensorflow) | 188360 | 74562 | C++ | 788 | An Open Source Machine Learning Framework for Everyone | 2025-03-04T07:48:06Z |
 | 19 | [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) | 181192 | 33595 | None | 81 | A book series (2 published editions) on the JS language. | 2024-09-05T04:11:45Z |
 | 20 | [CS-Notes](https://github.com/CyC2018/CS-Notes) | 179184 | 51206 | None | 148 | :books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计 | 2024-08-21T09:40:10Z |
 | 21 | [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 176446 | 26014 | Shell | 133 | 🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community. | 2025-03-03T16:15:43Z |
@@ -30,7 +30,7 @@
 | 23 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 172169 | 45193 | Python | 173 | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. | 2025-03-04T05:21:55Z |
 | 24 | [bootstrap](https://github.com/twbs/bootstrap) | 171683 | 79046 | JavaScript | 482 | The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web. | 2025-03-03T21:34:16Z |
 | 25 | [flutter](https://github.com/flutter/flutter) | 168947 | 28123 | Dart | 12991 | Flutter makes it easy and fast to build beautiful apps for mobile and beyond | 2025-03-04T05:39:47Z |
-| 26 | [vscode](https://github.com/microsoft/vscode) | 168032 | 30788 | TypeScript | 8858 | Visual Studio Code | 2025-03-04T06:51:35Z |
+| 26 | [vscode](https://github.com/microsoft/vscode) | 168033 | 30788 | TypeScript | 8858 | Visual Studio Code | 2025-03-04T06:51:35Z |
 | 27 | [gitignore](https://github.com/github/gitignore) | 164795 | 83109 | None | 0 | A collection of useful .gitignore templates | 2025-03-03T18:20:20Z |
 | 28 | [Python-100-Days](https://github.com/jackfrued/Python-100-Days) | 161574 | 53039 | Jupyter Notebook | 547 | Python - 100天从新手到大师 | 2025-03-04T06:09:14Z |
 | 29 | [the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | 159657 | 10064 | None | 0 | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | 2024-11-19T14:00:38Z |
@@ -41,8 +41,8 @@
 | 34 | [transformers](https://github.com/huggingface/transformers) | 140560 | 28182 | Python | 1002 | 🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX. | 2025-03-04T07:28:45Z |
 | 35 | [awesome-go](https://github.com/avelino/awesome-go) | 139113 | 12132 | Go | 6 | A curated list of awesome Go frameworks, libraries and software | 2025-03-03T04:23:24Z |
 | 36 | [youtube-dl](https://github.com/ytdl-org/youtube-dl) | 134475 | 10225 | Python | 3691 | Command-line program to download videos from YouTube.com and other video sites | 2025-02-28T01:02:20Z |
-| 37 | [ollama](https://github.com/ollama/ollama) | 130832 | 10725 | Go | 1429 | Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models. | 2025-03-04T03:23:58Z |
-| 38 | [next.js](https://github.com/vercel/next.js) | 129860 | 27810 | JavaScript | 2559 | The React Framework | 2025-03-04T05:47:02Z |
+| 37 | [ollama](https://github.com/ollama/ollama) | 130833 | 10725 | Go | 1429 | Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models. | 2025-03-04T03:23:58Z |
+| 38 | [next.js](https://github.com/vercel/next.js) | 129860 | 27810 | JavaScript | 2558 | The React Framework | 2025-03-04T05:47:02Z |
 | 39 | [fucking-algorithm](https://github.com/labuladong/fucking-algorithm) | 127055 | 23312 | Markdown | 2 | 刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why.  | 2025-01-31T06:30:22Z |
 | 40 | [go](https://github.com/golang/go) | 126169 | 17923 | Go | 9184 | The Go programming language | 2025-03-04T06:13:18Z |
 | 41 | [Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | 123370 | 12006 | Batchfile | 3 | Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting. | 2025-02-23T19:06:50Z |
