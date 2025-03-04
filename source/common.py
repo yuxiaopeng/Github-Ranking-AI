@@ -10,10 +10,6 @@ def set_access_token(param):
     # print("common.py set_access_token git_token: " + git_token)
 
 def get_access_token():
-    # with open('../access_token.txt', 'r') as f:
-    #     access_token = f.read().strip()
-    # return access_token
-    # print("common.py get_access_token git_token: " + git_token)
     return git_token
 
 def write_text(file_name, method, text):
@@ -83,6 +79,7 @@ def get_graphql_data(GQL):
         time.sleep(2)  # not get so fast
         try:
             # requests.packages.urllib3.disable_warnings() # disable InsecureRequestWarning of verify=False,
+            print(f'Requesting {GQL}...')
             r = requests.post(url=graphql_api, json={"query": GQL}, headers=headers, timeout=30)
             if r.status_code != 200:
                 print(f'Can not retrieve from {GQL}. Response status is {r.status_code}, content is {r.content}.')

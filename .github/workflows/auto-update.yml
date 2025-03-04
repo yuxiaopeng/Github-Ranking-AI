@@ -32,6 +32,7 @@ jobs:
     - name: Auto Update
       run: |
         echo "auto update start" >> ranking.log
+        > ranking.log
         sh auto_run.sh ${{ secrets.GITHUB_TOKEN }} >> ranking.log
         echo "auto update end" >> ranking.log
 
