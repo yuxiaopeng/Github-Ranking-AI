@@ -1,7 +1,7 @@
 [Github Ranking](../README.md)
 ==========
 
-## Top 100 Stars
+## Top 100 Stars in ChatGPT
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
@@ -22,7 +22,7 @@
 | 15 | [Python](https://github.com/TheAlgorithms/Python) | 197850 | 46337 | Python | 64 | All Algorithms implemented in Python | 2025-03-03T18:10:59Z |
 | 16 | [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) | 190308 | 30510 | JavaScript | 130 | 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings | 2025-02-12T16:19:59Z |
 | 17 | [linux](https://github.com/torvalds/linux) | 188946 | 55333 | C | 0 | Linux kernel source tree | 2025-03-03T17:55:42Z |
-| 18 | [tensorflow](https://github.com/tensorflow/tensorflow) | 188365 | 74562 | C++ | 788 | An Open Source Machine Learning Framework for Everyone | 2025-03-04T08:51:43Z |
+| 18 | [tensorflow](https://github.com/tensorflow/tensorflow) | 188365 | 74562 | C++ | 788 | An Open Source Machine Learning Framework for Everyone | 2025-03-04T08:56:56Z |
 | 19 | [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) | 181191 | 33595 | None | 81 | A book series (2 published editions) on the JS language. | 2024-09-05T04:11:45Z |
 | 20 | [CS-Notes](https://github.com/CyC2018/CS-Notes) | 179183 | 51206 | None | 148 | :books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计 | 2024-08-21T09:40:10Z |
 | 21 | [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 176446 | 26015 | Shell | 133 | 🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community. | 2025-03-03T16:15:43Z |
@@ -73,7 +73,7 @@
 | 66 | [material-ui](https://github.com/mui/material-ui) | 94935 | 32515 | TypeScript | 1674 | Material UI: Comprehensive React component library that implements Google's Material Design. Free forever. | 2025-03-04T06:23:39Z |
 | 67 | [godot](https://github.com/godotengine/godot) | 94724 | 21825 | C++ | 11435 | Godot Engine – Multi-platform 2D and 3D game engine | 2025-03-04T00:03:12Z |
 | 68 | [ant-design](https://github.com/ant-design/ant-design) | 93869 | 51383 | TypeScript | 1216 | An enterprise-class UI design language and React UI library | 2025-03-04T07:53:30Z |
-| 69 | [excalidraw](https://github.com/excalidraw/excalidraw) | 93671 | 8980 | TypeScript | 1662 | Virtual whiteboard for sketching hand-drawn like diagrams | 2025-03-03T19:09:34Z |
+| 69 | [excalidraw](https://github.com/excalidraw/excalidraw) | 93672 | 8980 | TypeScript | 1663 | Virtual whiteboard for sketching hand-drawn like diagrams | 2025-03-03T19:09:34Z |
 | 70 | [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript) | 92545 | 12398 | JavaScript | 71 | Clean Code concepts adapted for JavaScript | 2024-07-29T07:24:37Z |
 | 71 | [free-for-dev](https://github.com/ripienaar/free-for-dev) | 92525 | 10001 | HTML | 0 | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev | 2025-03-01T01:25:40Z |
 | 72 | [papers-we-love](https://github.com/papers-we-love/papers-we-love) | 91319 | 5859 | Shell | 1 | Papers from the computer science community to read and discuss. | 2025-02-19T01:13:05Z |

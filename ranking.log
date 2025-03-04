@@ -1,0 +1,94 @@
+auto update start
+-e 
+----------Run Time:----------
+Tue Mar  4 08:56:48 UTC 2025
+auto_run.sh
+Get repos of most stars...
+Get repos of most stars success!
+Get repos of most forks...
+Get repos of most forks success!
+Get most stars repos of LLM...
+Get most stars repos of LLM success!
+Get most stars repos of ChatGPT...
+Get most stars repos of ChatGPT success!
+Get most stars repos of OpenAI...
+Get most stars repos of OpenAI success!
+Get most stars repos of Deepseek...
+Get most stars repos of Deepseek success!
+Get most stars repos of LLaMA...
+Get most stars repos of LLaMA success!
+Get most stars repos of Chatbot...
+Get most stars repos of Chatbot success!
+Get most stars repos of AI Agents...
+Get most stars repos of AI Agents success!
+Get most stars repos of Claude...
+Get most stars repos of Claude success!
+Get most stars repos of RAG...
+Get most stars repos of RAG success!
+Get most stars repos of Mistral...
+Get most stars repos of Mistral success!
+Get most stars repos of Transformer...
+Get most stars repos of Transformer success!
+Get most stars repos of MoE...
+Get most stars repos of MoE success!
+Get most stars repos of AGI...
+Get most stars repos of AGI success!
+Get most stars repos of Generative AI...
+Get most stars repos of Generative AI success!
+Get most stars repos of AI...
+Get most stars repos of AI success!
+Save Most Stars in README.md!
+Save Top 100 Stars in Top100/Top-100-stars.md!
+
+Save Most Forks in README.md!
+Save Top 100 Forks in Top100/Top-100-forks.md!
+
+Save LLM in README.md!
+Save Top 100 Stars in LLM in Top100/LLM.md!
+
+Save ChatGPT in README.md!
+Save Top 100 Stars in ChatGPT in Top100/ChatGPT.md!
+
+Save OpenAI in README.md!
+Save Top 100 Stars in OpenAI in Top100/OpenAI.md!
+
+Save Deepseek in README.md!
+Save Top 100 Stars in Deepseek in Top100/Deepseek.md!
+
+Save LLaMA in README.md!
+Save Top 100 Stars in LLaMA in Top100/LLaMA.md!
+
+Save Chatbot in README.md!
+Save Top 100 Stars in Chatbot in Top100/Chatbot.md!
+
+Save AI Agents in README.md!
+Save Top 100 Stars in AI Agents in Top100/AI Agents.md!
+
+Save Claude in README.md!
+Save Top 100 Stars in Claude in Top100/Claude.md!
+
+Save RAG in README.md!
+Save Top 100 Stars in RAG in Top100/RAG.md!
+
+Save Mistral in README.md!
+Save Top 100 Stars in Mistral in Top100/Mistral.md!
+
+Save Transformer in README.md!
+Save Top 100 Stars in Transformer in Top100/Transformer.md!
+
+Save MoE in README.md!
+Save Top 100 Stars in MoE in Top100/MoE.md!
+
+Save AGI in README.md!
+Save Top 100 Stars in AGI in Top100/AGI.md!
+
+Save Generative AI in README.md!
+Save Top 100 Stars in Generative AI in Top100/Generative AI.md!
+
+Save AI in README.md!
+Save Top 100 Stars in AI in Top100/AI.md!
+
+Save data to Data/github-ranking-2025-03-04.csv
+Total time: 126.572351s
+auto update end
+commit&push start
