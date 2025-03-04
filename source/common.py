@@ -4,15 +4,17 @@ import requests
 import time
 import sys
 
-def __init__(self, param):
-    self.git_token: object = param
+def set_access_token(param):
+    global git_token
+    git_token = param
+    # print("common.py set_access_token git_token: " + git_token)
 
 def get_access_token():
     # with open('../access_token.txt', 'r') as f:
     #     access_token = f.read().strip()
     # return access_token
+    # print("common.py get_access_token git_token: " + git_token)
     return git_token
-
 
 def write_text(file_name, method, text):
     """

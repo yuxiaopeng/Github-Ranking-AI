@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 from datetime import datetime
 import os
+import sys
 import pandas as pd
-from common import get_graphql_data, write_text, write_ranking_repo
+from common import get_graphql_data, write_text, write_ranking_repo, set_access_token
 import inspect
+
+set_access_token(sys.argv[1])
 
 languages = ['LLM', 'ChatGPT', 'OpenAI', 'Deepseek', 'LLaMA', 'Chatbot', 'AI Agents', 'Claude', 'RAG', 'Mistral', 'Transformer', 'MoE', 'AGI', 'Generative AI', 'AI']
 languages_md = ['LLM', 'ChatGPT','OpenAI', 'Deepseek', 'LLaMA', 'Chatbot', 'AI Agents', 'Claude', 'RAG', 'Mistral', 'Transformer', 'MoE', 'AGI', 'Generative AI', 'AI']
