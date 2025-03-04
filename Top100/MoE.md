@@ -5,7 +5,7 @@
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 42926 | 5244 | Python | 327 | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) | 2025-03-03T16:17:10Z |
+| 1 | [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 42932 | 5244 | Python | 327 | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) | 2025-03-03T16:17:10Z |
 | 2 | [sglang](https://github.com/sgl-project/sglang) | 11297 | 1134 | Python | 324 | SGLang is a fast serving framework for large language models and vision language models. | 2025-03-04T11:00:48Z |
 | 3 | [trace.moe](https://github.com/soruly/trace.moe) | 4599 | 237 | None | 0 | Anime Scene Search by Image | 2024-10-13T03:00:58Z |
 | 4 | [Moeditor](https://github.com/Moeditor/Moeditor) | 4132 | 275 | JavaScript | 106 | (discontinued) Your all-purpose markdown editor. | 2020-07-07T01:08:32Z |
@@ -15,7 +15,7 @@
 | 8 | [MoE-LLaVA](https://github.com/PKU-YuanGroup/MoE-LLaVA) | 2106 | 132 | Python | 62 | Mixture-of-Experts for Large Vision-Language Models | 2024-12-03T09:08:16Z |
 | 9 | [fastmoe](https://github.com/laekov/fastmoe) | 1650 | 191 | Python | 25 | A fast MoE impl for PyTorch | 2025-02-10T06:04:33Z |
 | 10 | [MoBA](https://github.com/MoonshotAI/MoBA) | 1595 | 85 | Python | 8 | MoBA: Mixture of Block Attention for Long-Context LLMs | 2025-02-22T15:39:23Z |
-| 11 | [MoeKoeMusic](https://github.com/iAJue/MoeKoeMusic) | 1539 | 104 | Vue | 29 | 一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux :electron: | 2025-03-03T03:35:24Z |
+| 11 | [MoeKoeMusic](https://github.com/iAJue/MoeKoeMusic) | 1539 | 104 | Vue | 30 | 一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux :electron: | 2025-03-03T03:35:24Z |
 | 12 | [DeepSeek-MoE](https://github.com/deepseek-ai/DeepSeek-MoE) | 1535 | 266 | Python | 16 | DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models | 2024-01-16T12:18:10Z |
 | 13 | [hcaptcha-challenger](https://github.com/QIN2DIM/hcaptcha-challenger) | 1496 | 259 | Python | 36 | 🥂 Gracefully face hCaptcha challenge with MoE(ONNX) embedded solution. | 2024-04-20T11:15:09Z |
 | 14 | [OpenMoE](https://github.com/XueFuzhao/OpenMoE) | 1466 | 76 | Python | 5 | A family of open-sourced Mixture-of-Experts (MoE) Large Language Models | 2024-03-08T15:08:26Z |
