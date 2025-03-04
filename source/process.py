@@ -14,7 +14,7 @@ set_access_token(sys.argv[1])
 # * [Python](#python)"""  # For test
 
 languages = ['LLM', 'ChatGPT', 'OpenAI', 'Deepseek', 'LLaMA', 'Chatbot', 'AI Agents', 'Claude', 'RAG', 'Mistral', 'Transformer', 'MoE', 'AGI', 'Generative AI', 'AI']
-languages_md = ['LLM', 'ChatGPT','OpenAI', 'Deepseek', 'LLaMA', 'Chatbot', 'AI Agents', 'Claude', 'RAG', 'Mistral', 'Transformer', 'MoE', 'AGI', 'Generative AI', 'AI']
+languages_md = ['LLM', 'ChatGPT','OpenAI', 'Deepseek', 'LLaMA', 'Chatbot', 'AI_Agents', 'Claude', 'RAG', 'Mistral', 'Transformer', 'MoE', 'AGI', 'Generative_AI', 'AI']
 table_of_contents = """
  * [LLM](#LLM)
  * [ChatGPT](#ChatGPT) 
@@ -22,14 +22,14 @@ table_of_contents = """
  * [Deepseek](#Deepseek)
  * [LLaMA](#LLaMA)
  * [Chatbot](#Chatbot)
- * [AI Agents](#AI Agents)
+ * [AI Agents](#AI_Agents)
  * [Claude](#Claude)
  * [RAG](#RAG)
  * [Mistral](#Mistral)
  * [Transformer](#Transformer)
  * [MoE](#MoE)
  * [AGI](#AGI)
- * [Generative AI](#Generative AI)
+ * [Generative_AI](#Generative_AI)
  * [AI](#AI)
 """
 

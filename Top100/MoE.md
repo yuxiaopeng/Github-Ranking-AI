@@ -5,8 +5,8 @@
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 42922 | 5243 | Python | 328 | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) | 2025-03-03T16:17:10Z |
-| 2 | [sglang](https://github.com/sgl-project/sglang) | 11295 | 1132 | Python | 324 | SGLang is a fast serving framework for large language models and vision language models. | 2025-03-04T07:49:59Z |
+| 1 | [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 42926 | 5244 | Python | 327 | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) | 2025-03-03T16:17:10Z |
+| 2 | [sglang](https://github.com/sgl-project/sglang) | 11297 | 1134 | Python | 324 | SGLang is a fast serving framework for large language models and vision language models. | 2025-03-04T11:00:48Z |
 | 3 | [trace.moe](https://github.com/soruly/trace.moe) | 4599 | 237 | None | 0 | Anime Scene Search by Image | 2024-10-13T03:00:58Z |
 | 4 | [Moeditor](https://github.com/Moeditor/Moeditor) | 4132 | 275 | JavaScript | 106 | (discontinued) Your all-purpose markdown editor. | 2020-07-07T01:08:32Z |
 | 5 | [Bangumi](https://github.com/czy0729/Bangumi) | 4055 | 140 | TypeScript | 14 | :electron: An unofficial https://bgm.tv ui first app client for Android and iOS, built with React Native. 一个无广告、以爱好为驱动、不以盈利为目的、专门做 ACG 的类似豆瓣的追番记录，bgm.tv 第三方客户端。为移动端重新设计，内置大量加强的网页端难以实现的功能，且提供了相当的自定义选项。 目前已适配 iOS / Android / WSA、mobile / 简单 pad、light / dark theme、移动端网页。 | 2025-03-03T13:14:45Z |
@@ -14,9 +14,9 @@
 | 7 | [Moe-Counter](https://github.com/journey-ad/Moe-Counter) | 2123 | 229 | JavaScript | 6 | Moe counter badge with multiple themes! - 多种风格可选的萌萌计数器 | 2025-02-06T06:16:00Z |
 | 8 | [MoE-LLaVA](https://github.com/PKU-YuanGroup/MoE-LLaVA) | 2106 | 132 | Python | 62 | Mixture-of-Experts for Large Vision-Language Models | 2024-12-03T09:08:16Z |
 | 9 | [fastmoe](https://github.com/laekov/fastmoe) | 1650 | 191 | Python | 25 | A fast MoE impl for PyTorch | 2025-02-10T06:04:33Z |
-| 10 | [MoBA](https://github.com/MoonshotAI/MoBA) | 1594 | 85 | Python | 7 | MoBA: Mixture of Block Attention for Long-Context LLMs | 2025-02-22T15:39:23Z |
+| 10 | [MoBA](https://github.com/MoonshotAI/MoBA) | 1595 | 85 | Python | 8 | MoBA: Mixture of Block Attention for Long-Context LLMs | 2025-02-22T15:39:23Z |
 | 11 | [MoeKoeMusic](https://github.com/iAJue/MoeKoeMusic) | 1539 | 104 | Vue | 29 | 一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux :electron: | 2025-03-03T03:35:24Z |
-| 12 | [DeepSeek-MoE](https://github.com/deepseek-ai/DeepSeek-MoE) | 1534 | 266 | Python | 16 | DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models | 2024-01-16T12:18:10Z |
+| 12 | [DeepSeek-MoE](https://github.com/deepseek-ai/DeepSeek-MoE) | 1535 | 266 | Python | 16 | DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models | 2024-01-16T12:18:10Z |
 | 13 | [hcaptcha-challenger](https://github.com/QIN2DIM/hcaptcha-challenger) | 1496 | 259 | Python | 36 | 🥂 Gracefully face hCaptcha challenge with MoE(ONNX) embedded solution. | 2024-04-20T11:15:09Z |
 | 14 | [OpenMoE](https://github.com/XueFuzhao/OpenMoE) | 1466 | 76 | Python | 5 | A family of open-sourced Mixture-of-Experts (MoE) Large Language Models | 2024-03-08T15:08:26Z |
 | 15 | [paimon-moe](https://github.com/MadeBaruna/paimon-moe) | 1432 | 274 | JavaScript | 267 | Your best Genshin Impact companion! Help you plan what to farm with ascension calculator and database. Also track your progress with todo and wish counter. | 2025-03-04T09:02:04Z |
