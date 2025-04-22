@@ -1,6 +1,6 @@
 -e 
 ----------Run Time:----------
-Mon Apr 21 03:47:09 UTC 2025
+Tue Apr 22 03:40:25 UTC 2025
 auto_run.sh
 Get most stars repos of LLM...
 Requesting query{
@@ -813,118 +813,6 @@ Requesting query{
             }
         }
         ...
-Can not retrieve from query{
-    search(query: "Generative AI stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID E7C0:3A20E9:40DE43:815D76:6805C01D."\n}'.
-Requesting query{
-    search(query: "Generative AI stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        ...
-Can not retrieve from query{
-    search(query: "Generative AI stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID E7C1:6E51C:4FDC8A:9EA121:6805C020."\n}'.
-Requesting query{
-    search(query: "Generative AI stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        ...
 Get most stars repos of Generative AI success!
 Get most stars repos of AI...
 Requesting query{
@@ -1029,7 +917,7 @@ Save Top 100 Stars in Generative_AI in Top100/Generative AI.md!
 Save AI in README.md!
 Save Top 100 Stars in AI in Top100/AI.md!
 
-Save data to Data/github-ranking-2025-04-21.csv
-Total time: 109.245383s
+Save data to Data/github-ranking-2025-04-22.csv
+Total time: 109.126814s
 auto update end
 commit&push start
