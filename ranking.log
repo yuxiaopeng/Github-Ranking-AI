@@ -1,6 +1,6 @@
 -e 
 ----------Run Time:----------
-Wed May  7 03:46:16 UTC 2025
+Thu May  8 03:47:06 UTC 2025
 auto_run.sh
 Get most stars repos of LLM...
 Requesting query{
@@ -727,118 +727,6 @@ Requesting query{
             }
         }
         ...
-Can not retrieve from query{
-    search(query: "AGI stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID 3580:37C38A:378FD42:6F39C5F:681AD7E0."\n}'.
-Requesting query{
-    search(query: "AGI stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        ...
-Can not retrieve from query{
-    search(query: "AGI stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID 3581:1810:273524E:4E8CC63:681AD7E2."\n}'.
-Requesting query{
-    search(query: "AGI stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        ...
 Requesting query{
     search(query: "AGI stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
       pageInfo { endCursor }
@@ -1029,7 +917,7 @@ Save Top 100 Stars in Generative_AI in Top100/Generative AI.md!
 Save AI in README.md!
 Save Top 100 Stars in AI in Top100/AI.md!
 
-Save data to Data/github-ranking-2025-05-07.csv
-Total time: 111.466453s
+Save data to Data/github-ranking-2025-05-08.csv
+Total time: 105.887933s
 auto update end
 commit&push start
