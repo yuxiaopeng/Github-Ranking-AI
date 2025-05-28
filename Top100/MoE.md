@@ -5,50 +5,50 @@
 
 | Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
-| 1 | [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 50773 | 6137 | Python | 468 | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) | 2025-05-26T18:05:56Z |
-| 2 | [sglang](https://github.com/sgl-project/sglang) | 14652 | 1850 | Python | 459 | SGLang is a fast serving framework for large language models and vision language models. | 2025-05-27T03:28:12Z |
-| 3 | [ms-swift](https://github.com/modelscope/ms-swift) | 7767 | 660 | Python | 740 | Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 500+ LLMs (Qwen3, Qwen3-MoE, Llama4, InternLM3, DeepSeek-R1, ...) and 200+ MLLMs (Qwen2.5-VL, Qwen2.5-Omni, Qwen2-Audio, Ovis2, InternVL3, Llava, GLM4v, Phi4, ...) (AAAI 2025). | 2025-05-27T03:36:32Z |
+| 1 | [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 50944 | 6158 | Python | 474 | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) | 2025-05-27T11:01:33Z |
+| 2 | [sglang](https://github.com/sgl-project/sglang) | 14679 | 1858 | Python | 464 | SGLang is a fast serving framework for large language models and vision language models. | 2025-05-28T03:37:27Z |
+| 3 | [ms-swift](https://github.com/modelscope/ms-swift) | 7801 | 661 | Python | 750 | Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 500+ LLMs (Qwen3, Qwen3-MoE, Llama4, InternLM3, DeepSeek-R1, ...) and 200+ MLLMs (Qwen2.5-VL, Qwen2.5-Omni, Qwen2-Audio, Ovis2, InternVL3, Llava, GLM4v, Phi4, ...) (AAAI 2025). | 2025-05-28T02:56:29Z |
 | 4 | [trace.moe](https://github.com/soruly/trace.moe) | 4675 | 239 | None | 0 | Anime Scene Search by Image | 2024-10-13T03:00:58Z |
-| 5 | [Bangumi](https://github.com/czy0729/Bangumi) | 4366 | 145 | TypeScript | 21 | :electron: An unofficial https://bgm.tv ui first app client for Android and iOS, built with React Native. 一个无广告、以爱好为驱动、不以盈利为目的、专门做 ACG 的类似豆瓣的追番记录，bgm.tv 第三方客户端。为移动端重新设计，内置大量加强的网页端难以实现的功能，且提供了相当的自定义选项。 目前已适配 iOS / Android / WSA、mobile / 简单 pad、light / dark theme、移动端网页。 | 2025-05-26T16:03:13Z |
+| 5 | [Bangumi](https://github.com/czy0729/Bangumi) | 4369 | 146 | TypeScript | 21 | :electron: An unofficial https://bgm.tv ui first app client for Android and iOS, built with React Native. 一个无广告、以爱好为驱动、不以盈利为目的、专门做 ACG 的类似豆瓣的追番记录，bgm.tv 第三方客户端。为移动端重新设计，内置大量加强的网页端难以实现的功能，且提供了相当的自定义选项。 目前已适配 iOS / Android / WSA、mobile / 简单 pad、light / dark theme、移动端网页。 | 2025-05-26T16:03:13Z |
 | 6 | [Moeditor](https://github.com/Moeditor/Moeditor) | 4135 | 273 | JavaScript | 106 | (discontinued) Your all-purpose markdown editor. | 2020-07-07T01:08:32Z |
-| 7 | [MoeKoeMusic](https://github.com/iAJue/MoeKoeMusic) | 2413 | 162 | Vue | 23 | 一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux :electron: | 2025-05-27T03:40:29Z |
-| 8 | [MoeGoe](https://github.com/CjangCjengh/MoeGoe) | 2384 | 248 | Python | 27 | Executable file for VITS inference | 2023-08-22T07:17:37Z |
-| 9 | [Moe-Counter](https://github.com/journey-ad/Moe-Counter) | 2301 | 237 | JavaScript | 6 | Moe counter badge with multiple themes! - 多种风格可选的萌萌计数器 | 2025-02-06T06:16:00Z |
+| 7 | [MoeKoeMusic](https://github.com/iAJue/MoeKoeMusic) | 2417 | 163 | Vue | 21 | 一款开源简洁高颜值的酷狗第三方客户端 An open-source, concise, and aesthetically pleasing third-party client for KuGou that supports  Windows / macOS / Linux :electron: | 2025-05-27T13:28:43Z |
+| 8 | [MoeGoe](https://github.com/CjangCjengh/MoeGoe) | 2385 | 248 | Python | 27 | Executable file for VITS inference | 2023-08-22T07:17:37Z |
+| 9 | [Moe-Counter](https://github.com/journey-ad/Moe-Counter) | 2309 | 237 | JavaScript | 6 | Moe counter badge with multiple themes! - 多种风格可选的萌萌计数器 | 2025-02-06T06:16:00Z |
 | 10 | [MoE-LLaVA](https://github.com/PKU-YuanGroup/MoE-LLaVA) | 2168 | 135 | Python | 63 | Mixture-of-Experts for Large Vision-Language Models | 2024-12-03T09:08:16Z |
-| 11 | [MoBA](https://github.com/MoonshotAI/MoBA) | 1778 | 106 | Python | 5 | MoBA: Mixture of Block Attention for Long-Context LLMs | 2025-04-03T07:28:06Z |
-| 12 | [fastmoe](https://github.com/laekov/fastmoe) | 1729 | 195 | Python | 26 | A fast MoE impl for PyTorch | 2025-02-10T06:04:33Z |
-| 13 | [DeepSeek-MoE](https://github.com/deepseek-ai/DeepSeek-MoE) | 1696 | 279 | Python | 16 | DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models | 2024-01-16T12:18:10Z |
-| 14 | [OpenMoE](https://github.com/XueFuzhao/OpenMoE) | 1535 | 79 | Python | 5 | A family of open-sourced Mixture-of-Experts (MoE) Large Language Models | 2024-03-08T15:08:26Z |
-| 15 | [paimon-moe](https://github.com/MadeBaruna/paimon-moe) | 1454 | 274 | JavaScript | 274 | Your best Genshin Impact companion! Help you plan what to farm with ascension calculator and database. Also track your progress with todo and wish counter. | 2025-05-07T08:15:09Z |
+| 11 | [MoBA](https://github.com/MoonshotAI/MoBA) | 1779 | 106 | Python | 6 | MoBA: Mixture of Block Attention for Long-Context LLMs | 2025-04-03T07:28:06Z |
+| 12 | [fastmoe](https://github.com/laekov/fastmoe) | 1732 | 195 | Python | 26 | A fast MoE impl for PyTorch | 2025-02-10T06:04:33Z |
+| 13 | [DeepSeek-MoE](https://github.com/deepseek-ai/DeepSeek-MoE) | 1698 | 279 | Python | 17 | DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models | 2024-01-16T12:18:10Z |
+| 14 | [OpenMoE](https://github.com/XueFuzhao/OpenMoE) | 1534 | 78 | Python | 5 | A family of open-sourced Mixture-of-Experts (MoE) Large Language Models | 2024-03-08T15:08:26Z |
+| 15 | [paimon-moe](https://github.com/MadeBaruna/paimon-moe) | 1454 | 274 | JavaScript | 274 | Your best Genshin Impact companion! Help you plan what to farm with ascension calculator and database. Also track your progress with todo and wish counter. | 2025-05-27T10:13:47Z |
 | 16 | [MOE](https://github.com/Yelp/MOE) | 1317 | 139 | C++ | 170 | A global, black box optimization engine for real world metric optimization. | 2023-03-24T11:00:32Z |
-| 17 | [moemail](https://github.com/beilunyang/moemail) | 1240 | 604 | TypeScript | 14 | 一个基于 NextJS + Cloudflare 技术栈构建的可爱临时邮箱服务🎉 | 2025-05-24T13:15:58Z |
-| 18 | [mixture-of-experts](https://github.com/davidmrau/mixture-of-experts) | 1106 | 108 | Python | 5 | PyTorch Re-Implementation of "The Sparsely-Gated Mixture-of-Experts Layer" by Noam Shazeer et al. https://arxiv.org/abs/1701.06538 | 2024-04-19T08:22:39Z |
-| 19 | [Aria](https://github.com/rhymes-ai/Aria) | 1042 | 85 | Jupyter Notebook | 31 | Codebase for Aria - an Open Multimodal Native MoE | 2025-01-22T03:25:37Z |
-| 20 | [moepush](https://github.com/beilunyang/moepush) | 1026 | 201 | TypeScript | 5 | 一个基于 NextJS + Cloudflare 技术栈构建的可爱消息推送服务, 支持多种消息推送渠道✨ | 2025-05-10T11:42:44Z |
+| 17 | [moemail](https://github.com/beilunyang/moemail) | 1245 | 605 | TypeScript | 14 | 一个基于 NextJS + Cloudflare 技术栈构建的可爱临时邮箱服务🎉 | 2025-05-24T13:15:58Z |
+| 18 | [mixture-of-experts](https://github.com/davidmrau/mixture-of-experts) | 1107 | 108 | Python | 5 | PyTorch Re-Implementation of "The Sparsely-Gated Mixture-of-Experts Layer" by Noam Shazeer et al. https://arxiv.org/abs/1701.06538 | 2024-04-19T08:22:39Z |
+| 19 | [Aria](https://github.com/rhymes-ai/Aria) | 1041 | 85 | Jupyter Notebook | 31 | Codebase for Aria - an Open Multimodal Native MoE | 2025-01-22T03:25:37Z |
+| 20 | [moepush](https://github.com/beilunyang/moepush) | 1035 | 206 | TypeScript | 5 | 一个基于 NextJS + Cloudflare 技术栈构建的可爱消息推送服务, 支持多种消息推送渠道✨ | 2025-05-10T11:42:44Z |
 | 21 | [MoeTTS](https://github.com/luoyily/MoeTTS) | 988 | 77 | None | 0 | Speech synthesis model /inference GUI repo for galgame characters based on Tacotron2, Hifigan, VITS and Diff-svc | 2023-03-03T07:30:05Z |
 | 22 | [llama-moe](https://github.com/pjlab-sys4nlp/llama-moe) | 961 | 61 | Python | 6 | ⛷️ LLaMA-MoE: Building Mixture-of-Experts from LLaMA with Continual Pre-training (EMNLP 2024) | 2024-12-06T04:47:07Z |
-| 23 | [Tutel](https://github.com/microsoft/Tutel) | 824 | 97 | C | 43 | Tutel MoE: Optimized Mixture-of-Experts Library, Support DeepSeek FP8/FP4 | 2025-05-26T09:32:06Z |
+| 23 | [Tutel](https://github.com/microsoft/Tutel) | 824 | 97 | C | 43 | Tutel MoE: Optimized Mixture-of-Experts Library, Support DeepSeek FP8/FP4 | 2025-05-27T15:19:43Z |
 | 24 | [moebius](https://github.com/blocktronics/moebius) | 809 | 47 | JavaScript | 39 | Modern ANSI & ASCII Art Editor | 2024-05-02T15:54:35Z |
 | 25 | [Adan](https://github.com/sail-sg/Adan) | 791 | 67 | Python | 3 | Adan: Adaptive Nesterov Momentum Algorithm for Faster Optimizing Deep Models | 2024-07-02T18:26:36Z |
 | 26 | [MixtralKit](https://github.com/open-compass/MixtralKit) | 767 | 79 | Python | 12 | A toolkit for inference and evaluation of 'mixtral-8x7b-32kseqlen' from Mistral AI | 2023-12-15T19:10:55Z |
 | 27 | [MoeMemosAndroid](https://github.com/mudkipme/MoeMemosAndroid) | 764 | 79 | Kotlin | 78 | An app to help you capture thoughts and ideas | 2025-02-15T07:11:32Z |
-| 28 | [moe-theme.el](https://github.com/kuanyui/moe-theme.el) | 758 | 64 | Emacs Lisp | 14 | A customizable colorful eye-candy theme for Emacser. Moe, moe, kyun! | 2025-02-03T18:08:33Z |
-| 29 | [UMOE-Scaling-Unified-Multimodal-LLMs](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs) | 721 | 44 | Python | 11 | The codes about "Uni-MoE: Scaling Unified Multimodal Models with Mixture of Experts" | 2025-05-13T05:05:42Z |
+| 28 | [moe-theme.el](https://github.com/kuanyui/moe-theme.el) | 758 | 64 | Emacs Lisp | 14 | A customizable colorful eye-candy theme for Emacser. Moe, moe, kyun! | 2025-05-27T06:12:05Z |
+| 29 | [UMOE-Scaling-Unified-Multimodal-LLMs](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs) | 720 | 44 | Python | 11 | The codes about "Uni-MoE: Scaling Unified Multimodal Models with Mixture of Experts" | 2025-05-13T05:05:42Z |
 | 30 | [DeepSeek-671B-SFT-Guide](https://github.com/ScienceOne-AI/DeepSeek-671B-SFT-Guide) | 685 | 88 | Python | 1 | An open-source solution for full parameter fine-tuning of DeepSeek-V3/R1 671B, including complete code and scripts from training to inference, as well as some practical experiences and conclusions. (DeepSeek-V3/R1 满血版 671B 全参数微调的开源解决方案，包含从训练到推理的完整代码和脚本，以及实践中积累一些经验和结论。) | 2025-03-13T03:51:33Z |
-| 31 | [moe](https://github.com/fox0430/moe) | 681 | 33 | Nim | 86 | A command line based editor inspired by Vim. Written in Nim. | 2025-05-26T20:28:00Z |
-| 32 | [Awesome-Mixture-of-Experts-Papers](https://github.com/codecaution/Awesome-Mixture-of-Experts-Papers) | 624 | 44 | None | 1 | A curated reading list of research in Mixture-of-Experts(MoE). | 2024-10-30T07:48:14Z |
-| 33 | [Time-MoE](https://github.com/Time-MoE/Time-MoE) | 623 | 61 | Python | 15 | [ICLR 2025 Spotlight] Official implementation of "Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts" | 2025-05-21T12:26:57Z |
+| 31 | [moe](https://github.com/fox0430/moe) | 682 | 33 | Nim | 86 | A command line based editor inspired by Vim. Written in Nim. | 2025-05-27T22:14:32Z |
+| 32 | [Awesome-Mixture-of-Experts-Papers](https://github.com/codecaution/Awesome-Mixture-of-Experts-Papers) | 625 | 44 | None | 1 | A curated reading list of research in Mixture-of-Experts(MoE). | 2024-10-30T07:48:14Z |
+| 33 | [Time-MoE](https://github.com/Time-MoE/Time-MoE) | 624 | 61 | Python | 15 | [ICLR 2025 Spotlight] Official implementation of "Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts" | 2025-05-21T12:26:57Z |
 | 34 | [vtbs.moe](https://github.com/dd-center/vtbs.moe) | 621 | 36 | Vue | 32 | Virtual YouTubers in bilibili | 2024-09-10T06:07:07Z |
 | 35 | [moedict-webkit](https://github.com/g0v/moedict-webkit) | 620 | 99 | Objective-C | 102 | 萌典網站 | 2025-05-22T16:20:14Z |
-| 36 | [SmartImage](https://github.com/Decimation/SmartImage) | 615 | 27 | C# | 9 | Reverse image search tool (SauceNao, IQDB, Ascii2D, trace.moe, and more) | 2025-05-14T19:37:39Z |
+| 36 | [SmartImage](https://github.com/Decimation/SmartImage) | 616 | 27 | C# | 9 | Reverse image search tool (SauceNao, IQDB, Ascii2D, trace.moe, and more) | 2025-05-14T19:37:39Z |
 | 37 | [satania.moe](https://github.com/Pizzacus/satania.moe) | 614 | 57 | HTML | 3 | Satania IS the BEST waifu, no really, she is, if you don't believe me, this website will convince you | 2022-10-09T23:19:01Z |
 | 38 | [moebius](https://github.com/robconery/moebius) | 607 | 43 | Elixir | 3 | A functional query tool for Elixir | 2024-10-23T18:55:45Z |
 | 39 | [Chinese-Mixtral](https://github.com/ymcui/Chinese-Mixtral) | 605 | 44 | Python | 0 | 中文Mixtral混合专家大模型（Chinese Mixtral MoE LLMs） | 2024-04-30T04:29:06Z |
 | 40 | [MoeGoe_GUI](https://github.com/CjangCjengh/MoeGoe_GUI) | 571 | 68 | C# | 8 | GUI for MoeGoe | 2023-08-22T07:32:08Z |
-| 41 | [MoeList](https://github.com/axiel7/MoeList) | 568 | 20 | Kotlin | 26 | Another unofficial Android MAL client | 2025-05-25T07:40:36Z |
+| 41 | [MoeList](https://github.com/axiel7/MoeList) | 568 | 20 | Kotlin | 27 | Another unofficial Android MAL client | 2025-05-25T07:40:36Z |
 | 42 | [MoeMemos](https://github.com/mudkipme/MoeMemos) | 561 | 47 | Swift | 63 | An app to help you capture thoughts and ideas | 2025-05-05T19:00:42Z |
-| 43 | [moebooru](https://github.com/moebooru/moebooru) | 552 | 84 | Ruby | 25 | Moebooru, a fork of danbooru1 that has been heavily modified | 2025-05-15T16:24:26Z |
-| 44 | [trace.moe-telegram-bot](https://github.com/soruly/trace.moe-telegram-bot) | 534 | 78 | JavaScript | 0 | This Telegram Bot can tell the anime when you send an screenshot to it | 2025-04-28T10:02:09Z |
+| 43 | [moebooru](https://github.com/moebooru/moebooru) | 554 | 84 | Ruby | 25 | Moebooru, a fork of danbooru1 that has been heavily modified | 2025-05-15T16:24:26Z |
+| 44 | [trace.moe-telegram-bot](https://github.com/soruly/trace.moe-telegram-bot) | 535 | 78 | JavaScript | 0 | This Telegram Bot can tell the anime when you send an screenshot to it | 2025-04-28T10:02:09Z |
 | 45 | [step_into_llm](https://github.com/mindspore-courses/step_into_llm) | 468 | 118 | Jupyter Notebook | 27 | MindSpore online courses: Step into LLM | 2025-01-06T01:50:19Z |
 | 46 | [moerail](https://github.com/Arnie97/moerail) | 453 | 34 | JavaScript | 16 | 铁路车站代码查询 × 动车组交路查询 | 2023-02-27T03:37:18Z |
 | 47 | [MOE](https://github.com/google/MOE) | 421 | 76 | Java | 18 | Make Opensource Easy - tools for synchronizing repositories | 2022-06-20T22:41:08Z |
@@ -59,7 +59,7 @@
 | 52 | [notify.moe](https://github.com/animenotifier/notify.moe) | 351 | 45 | Go | 86 | :dancer: Anime tracker, database and community. Moved to https://git.akyoto.dev/web/notify.moe | 2022-09-26T07:15:05Z |
 | 53 | [moe-sticker-bot](https://github.com/star-39/moe-sticker-bot) | 339 | 35 | Go | 27 | A Telegram bot that imports LINE/kakao stickers or creates/manages new sticker set. | 2024-06-06T15:28:28Z |
 | 54 | [MOEAFramework](https://github.com/MOEAFramework/MOEAFramework) | 337 | 127 | Java | 1 | A Free and Open Source Java Framework for Multiobjective Optimization | 2025-05-09T12:39:25Z |
-| 55 | [st-moe-pytorch](https://github.com/lucidrains/st-moe-pytorch) | 332 | 29 | Python | 4 | Implementation of ST-Moe, the latest incarnation of MoE after years of research at Brain, in Pytorch | 2024-06-17T00:48:47Z |
+| 55 | [st-moe-pytorch](https://github.com/lucidrains/st-moe-pytorch) | 333 | 29 | Python | 4 | Implementation of ST-Moe, the latest incarnation of MoE after years of research at Brain, in Pytorch | 2024-06-17T00:48:47Z |
 | 56 | [dialogue.moe](https://github.com/windrises/dialogue.moe) | 329 | 8 | Python | 1 | None | 2022-12-14T14:50:38Z |
 | 57 | [DiT-MoE](https://github.com/feizc/DiT-MoE) | 329 | 15 | Python | 5 | Scaling Diffusion Transformers with Mixture of Experts | 2024-09-09T02:12:12Z |
 | 58 | [moell-blog](https://github.com/moell-peng/moell-blog) | 301 | 80 | PHP | 2 | 基于 Laravel 开发，支持 Markdown 语法的博客 | 2022-07-31T11:51:54Z |
@@ -73,7 +73,7 @@
 | 66 | [parameter-efficient-moe](https://github.com/Cohere-Labs-Community/parameter-efficient-moe) | 258 | 17 | Python | 1 | None | 2023-10-31T19:21:15Z |
 | 67 | [MoeQuest](https://github.com/HotBitmapGG/MoeQuest) | 251 | 76 | Java | 1 | The meizi of a material design style welfare App. | 2017-02-14T14:13:53Z |
 | 68 | [MoeLoader-Delta](https://github.com/usaginya/MoeLoader-Delta) | 245 | 37 | C# | 52 | Improved branching version of MoeLoader | 2021-07-22T20:47:41Z |
-| 69 | [MoH](https://github.com/SkyworkAI/MoH) | 244 | 11 | Python | 4 | MoH: Multi-Head Attention as Mixture-of-Head Attention | 2024-10-29T15:22:54Z |
+| 69 | [MoH](https://github.com/SkyworkAI/MoH) | 245 | 11 | Python | 4 | MoH: Multi-Head Attention as Mixture-of-Head Attention | 2024-10-29T15:22:54Z |
 | 70 | [inferflow](https://github.com/inferflow/inferflow) | 242 | 25 | C++ | 8 | Inferflow is an efficient and highly configurable inference engine for large language models (LLMs). | 2024-03-15T06:52:33Z |
 | 71 | [moeins](https://github.com/iAJue/moeins) | 240 | 68 | PHP | 2 | 萌音影视 - 在线影视应用 | 2018-10-31T01:47:27Z |
 | 72 | [moebius](https://github.com/moebiusphp/moebius) | 232 | 4 | PHP | 4 | True coroutines for PHP>=8.1 without worrying about event loops and callbacks. | 2022-06-08T23:18:45Z |
@@ -84,9 +84,9 @@
 | 77 | [fiddler](https://github.com/efeslab/fiddler) | 211 | 21 | Python | 2 | [ICLR'25] Fast Inference of MoE Models with CPU-GPU Orchestration | 2024-11-18T00:25:45Z |
 | 78 | [moe](https://github.com/facebookresearch/moe) | 203 | 22 | None | 1 | Misspelling Oblivious Word Embeddings | 2019-08-06T12:42:31Z |
 | 79 | [MoePhoto](https://github.com/opteroncx/MoePhoto) | 191 | 23 | Python | 5 | MoePhoto Image Toolbox萌图工具箱 | 2024-09-23T06:35:27Z |
-| 80 | [MoE-Infinity](https://github.com/EfficientMoE/MoE-Infinity) | 190 | 14 | Python | 7 | PyTorch library for cost-effective, fast and easy serving of MoE models. | 2025-05-18T19:49:26Z |
-| 81 | [Yuan2.0-M32](https://github.com/IEIT-Yuan/Yuan2.0-M32) | 187 | 41 | Python | 6 | Mixture-of-Experts (MoE) Language Model  | 2024-09-09T09:14:15Z |
-| 82 | [awesome-moe-inference](https://github.com/MoE-Inf/awesome-moe-inference) | 181 | 7 | None | 0 | Curated collection of papers in MoE model inference  | 2025-02-19T07:45:29Z |
+| 80 | [MoE-Infinity](https://github.com/EfficientMoE/MoE-Infinity) | 189 | 14 | Python | 7 | PyTorch library for cost-effective, fast and easy serving of MoE models. | 2025-05-18T19:49:26Z |
+| 81 | [Yuan2.0-M32](https://github.com/IEIT-Yuan/Yuan2.0-M32) | 188 | 41 | Python | 6 | Mixture-of-Experts (MoE) Language Model  | 2024-09-09T09:14:15Z |
+| 82 | [awesome-moe-inference](https://github.com/MoE-Inf/awesome-moe-inference) | 182 | 7 | None | 0 | Curated collection of papers in MoE model inference  | 2025-02-19T07:45:29Z |
 | 83 | [PlanMoE](https://github.com/JiangkuoWang/PlanMoE) | 177 | 19 | Python | 5 | This is a repository aimed at accelerating the training of MoE models, offering a more efficient scheduling method. | 2025-02-14T01:39:37Z |
 | 84 | [MOEAD](https://github.com/425776024/MOEAD) | 168 | 42 | Python | 2 | MOEAD.多目标差分进化算法的学习，Python实现&动态展示过程 | 2022-06-22T02:07:23Z |
 | 85 | [MOELoRA-peft](https://github.com/liuqidong07/MOELoRA-peft) | 167 | 18 | Python | 7 | [SIGIR'24] The official implementation code of MOELoRA. | 2024-07-22T07:32:43Z |
