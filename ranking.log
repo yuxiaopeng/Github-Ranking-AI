@@ -1,6 +1,6 @@
 -e 
 ----------Run Time:----------
-Mon Jun  2 03:55:55 UTC 2025
+Tue Jun  3 03:51:19 UTC 2025
 auto_run.sh
 Get most stars repos of LLM...
 Requesting query{
@@ -522,7 +522,7 @@ Can not retrieve from query{
                 }
             }
         }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID E840:2DB93:5728C77:ABDE4C7:683D2107."\n}'.
+        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID BFC1:A0383:17D99E2:2EEDBF5:683E7174."\n}'.
 Requesting query{
     search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
       pageInfo { endCursor }
@@ -578,7 +578,7 @@ Can not retrieve from query{
                 }
             }
         }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID E842:2516C9:46CE21D:8BA373B:683D2109."\n}'.
+        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID BFC2:3DD9A3:196278B:31D5754:683E7176."\n}'.
 Requesting query{
     search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
       pageInfo { endCursor }
@@ -1029,7 +1029,7 @@ Save Top 100 Stars in Generative_AI in Top100/Generative AI.md!
 Save AI in README.md!
 Save Top 100 Stars in AI in Top100/AI.md!
 
-Save data to Data/github-ranking-2025-06-02.csv
-Total time: 109.988118s
+Save data to Data/github-ranking-2025-06-03.csv
+Total time: 110.972567s
 auto update end
 commit&push start
