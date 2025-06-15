@@ -1,6 +1,6 @@
 -e 
 ----------Run Time:----------
-Sat Jun 14 03:48:16 UTC 2025
+Sun Jun 15 03:56:06 UTC 2025
 auto_run.sh
 Get most stars repos of LLM...
 Requesting query{
@@ -495,8 +495,36 @@ Requesting query{
             }
         }
         ...
+Can not retrieve from query{
+    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID FFC2:3AE520:C3F31CB:1873F402:684E4490."\n}'.
 Requesting query{
-    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
       pageInfo { endCursor }
                 edges {
                     node {
@@ -524,7 +552,7 @@ Requesting query{
         }
         ...
 Can not retrieve from query{
-    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
       pageInfo { endCursor }
                 edges {
                     node {
@@ -550,9 +578,9 @@ Can not retrieve from query{
                 }
             }
         }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID 5801:3AE520:819636D:100DAB72:684CF13B."\n}'.
+        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID FFC1:23C4A7:BE9816D:17CF7B56:684E4492."\n}'.
 Requesting query{
-    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
       pageInfo { endCursor }
                 edges {
                     node {
@@ -580,7 +608,7 @@ Requesting query{
         }
         ...
 Can not retrieve from query{
-    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
       pageInfo { endCursor }
                 edges {
                     node {
@@ -606,9 +634,9 @@ Can not retrieve from query{
                 }
             }
         }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID 5802:23C4A7:7CE813A:F7CE3B9:684CF13D."\n}'.
+        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID FFC0:23C4A7:BE98800:17CF8900:684E4494."\n}'.
 Requesting query{
-    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 ) {
       pageInfo { endCursor }
                 edges {
                     node {
@@ -635,90 +663,6 @@ Requesting query{
             }
         }
         ...
-Can not retrieve from query{
-    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID 5800:171300:80E639E:FF7CC7F:684CF13F."\n}'.
-Requesting query{
-    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        ...
-Can not retrieve from query{
-    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID 5803:1071AD:817299A:1002D626:684CF141."\n}'.
 Requesting query{
     search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
       pageInfo { endCursor }
@@ -1141,7 +1085,7 @@ Save Top 100 Stars in Generative_AI in Top100/Generative AI.md!
 Save AI in README.md!
 Save Top 100 Stars in AI in Top100/AI.md!
 
-Save data to Data/github-ranking-2025-06-14.csv
-Total time: 109.811409s
+Save data to Data/github-ranking-2025-06-15.csv
+Total time: 113.016937s
 auto update end
 commit&push start
