@@ -1,6 +1,6 @@
 -e 
 ----------Run Time:----------
-Mon Jul 14 04:07:28 UTC 2025
+Tue Jul 15 04:04:15 UTC 2025
 auto_run.sh
 Get most stars repos of LLM...
 Requesting query{
@@ -523,6 +523,62 @@ Requesting query{
             }
         }
         ...
+Can not retrieve from query{
+    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID 8C02:1D2E15:9E5C02:1404C8B:6875D37E."\n}'.
+Requesting query{
+    search(query: "RAG stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of RAG success!
 Get most stars repos of Mistral...
 Requesting query{
@@ -553,230 +609,6 @@ Requesting query{
             }
         }
         ...
-Requesting query{
-    search(query: "Mistral stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        ...
-Can not retrieve from query{
-    search(query: "Mistral stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID 07C2:2E1258:1F16F2C:3F4D8A5:687482C6."\n}'.
-Requesting query{
-    search(query: "Mistral stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        ...
-Can not retrieve from query{
-    search(query: "Mistral stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID 07C1:40BA5:1FCC27F:40B3F94:687482C9."\n}'.
-Requesting query{
-    search(query: "Mistral stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        ...
-Can not retrieve from query{
-    search(query: "Mistral stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID 07C0:2A4742:231D32B:477D25C:687482CB."\n}'.
-Requesting query{
-    search(query: "Mistral stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        ...
-Can not retrieve from query{
-    search(query: "Mistral stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
-      pageInfo { endCursor }
-                edges {
-                    node {
-                        ...on Repository {
-                            id
-                            name
-                            url
-                            forkCount
-                            stargazerCount
-                            owner {
-                                login
-                            }
-                            description
-                            pushedAt
-                            primaryLanguage {
-                                name
-                            }
-                            openIssues: issues(states: OPEN) {
-                                totalCount
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        . Response status is 403, content is b'{\n  "documentation_url": "https://docs.github.com/free-pro-team@latest/rest/overview/rate-limits-for-the-rest-api#about-secondary-rate-limits",\n  "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. If you reach out to GitHub Support for help, please include the request ID 07C3:322852:2408605:4956A5C:687482CD."\n}'.
 Requesting query{
     search(query: "Mistral stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
       pageInfo { endCursor }
@@ -1141,7 +973,7 @@ Save Top 100 Stars in Generative_AI in Top100/Generative AI.md!
 Save AI in README.md!
 Save Top 100 Stars in AI in Top100/AI.md!
 
-Save data to Data/github-ranking-2025-07-14.csv
-Total time: 116.435789s
+Save data to Data/github-ranking-2025-07-15.csv
+Total time: 108.284995s
 auto update end
 commit&push start
