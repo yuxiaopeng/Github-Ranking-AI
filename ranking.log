@@ -1,6 +1,6 @@
 -e 
 ----------Run Time:----------
-Thu Nov 13 03:51:46 UTC 2025
+Fri Nov 14 03:50:32 UTC 2025
 auto_run.sh
 Get most stars repos of LLM...
 Requesting query{
@@ -917,7 +917,7 @@ Save Top 100 Stars in Generative_AI in Top100/Generative AI.md!
 Save AI in README.md!
 Save Top 100 Stars in AI in Top100/AI.md!
 
-Save data to Data/github-ranking-2025-11-13.csv
-Total time: 116.538402s
+Save data to Data/github-ranking-2025-11-14.csv
+Total time: 127.902218s
 auto update end
 commit&push start
