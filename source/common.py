@@ -4,15 +4,15 @@ import requests
 import time
 import sys
 
-def set_access_token(param):
+def set_access_token(param) -> None:
     global git_token
     git_token = param
-    # print("common.py set_access_token git_token: " + git_token)
+    # logging.info("common.py set_access_token git_token: " + git_token)
 
-def get_access_token():
+def get_access_token() -> None:
     return git_token
 
-def write_text(file_name, method, text):
+def write_text(file_name, method, text) -> None:
     """
     write text to file
     method: 'a'-append, 'w'-overwrite
@@ -21,7 +21,7 @@ def write_text(file_name, method, text):
         f.write(text)
 
 
-def write_ranking_repo(file_name, method, repos):
+def write_ranking_repo(file_name, method, repos) -> None:
     # method: 'a'-append or 'w'-overwrite
     table_head = "| Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |\n\
 | ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |\n"
@@ -38,7 +38,7 @@ def write_ranking_repo(file_name, method, repos):
         f.write('\n')
 
 
-def get_api_repos(API_URL):
+def get_api_repos(API_URL) -> None:
     """
     get repos of api, return repos list
     """
@@ -61,7 +61,7 @@ def get_api_repos(API_URL):
     return repos
 
 
-def get_graphql_data(GQL):
+def get_graphql_data(GQL) -> None:
     """
     use graphql to get data
     """
@@ -79,12 +79,12 @@ def get_graphql_data(GQL):
         time.sleep(2)  # not get so fast
         try:
             # requests.packages.urllib3.disable_warnings() # disable InsecureRequestWarning of verify=False,
-            print(f'Requesting {GQL}...')
+            logging.info(f'Requesting {GQL}...')
             r = requests.post(url=graphql_api, json={"query": GQL}, headers=headers, timeout=30)
             if r.status_code != 200:
-                print(f'Can not retrieve from {GQL}. Response status is {r.status_code}, content is {r.content}.')
+                logging.info(f'Can not retrieve from {GQL}. Response status is {r.status_code}, content is {r.content}.')
             else:
                 return r.json()
         except Exception as e:
-            print(e)
+            logging.info(e)
             time.sleep(5)
