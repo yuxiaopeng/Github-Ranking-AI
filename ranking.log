@@ -1,6 +1,6 @@
 -e 
 ----------Run Time:----------
-Wed Apr 29 06:06:20 UTC 2026
+Thu Apr 30 06:09:54 UTC 2026
 auto_run.sh
 Get most stars repos of LLM...
 Requesting query{
@@ -871,6 +871,62 @@ Requesting query{
             }
         }
         ...
+Can not retrieve from query{
+    search(query: "AI stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        . Response status is 504, content is b'{"message": "We couldn\'t respond to your request in time. Sorry about that. Please try resubmitting your request and contact us if the problem persists."}\r\n'.
+Requesting query{
+    search(query: "AI stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
+      pageInfo { endCursor }
+                edges {
+                    node {
+                        ...on Repository {
+                            id
+                            name
+                            url
+                            forkCount
+                            stargazerCount
+                            owner {
+                                login
+                            }
+                            description
+                            pushedAt
+                            primaryLanguage {
+                                name
+                            }
+                            openIssues: issues(states: OPEN) {
+                                totalCount
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ...
 Get most stars repos of AI success!
 Save LLM in README.md!
 Save Top 100 Stars in LLM in Top100/LLM.md!
@@ -917,7 +973,7 @@ Save Top 100 Stars in Generative_AI in Top100/Generative AI.md!
 Save AI in README.md!
 Save Top 100 Stars in AI in Top100/AI.md!
 
-Save data to Data/github-ranking-2026-04-29.csv
-Total time: 135.685677s
+Save data to Data/github-ranking-2026-04-30.csv
+Total time: 146.825482s
 auto update end
 commit&push start
