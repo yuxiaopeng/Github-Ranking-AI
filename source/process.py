@@ -8,30 +8,39 @@ import inspect
 
 set_access_token(sys.argv[1])
 
-# languages = ['Python']  # For test
-# languages_md = ['Python']  # For test
-# table_of_contents = """
-# * [Python](#python)"""  # For test
+categories = [
+    {"name": "LLM"},
+    {"name": "ChatGPT"},
+    {"name": "OpenAI"},
+    {"name": "Deepseek"},
+    {"name": "LLaMA"},
+    {"name": "Chatbot"},
+    {"name": "AI Agents", "title": "AI_Agents"},
+    {"name": "Flowly", "query": "repo:Nocetic/flowly"},
+    {"name": "Claude"},
+    {"name": "RAG"},
+    {"name": "Mistral"},
+    {"name": "Transformer"},
+    {"name": "MoE"},
+    {"name": "AGI"},
+    {"name": "Generative AI", "title": "Generative_AI"},
+    {"name": "AI"},
+]
 
-languages = ['LLM', 'ChatGPT', 'OpenAI', 'Deepseek', 'LLaMA', 'Chatbot', 'AI Agents', 'Claude', 'RAG', 'Mistral', 'Transformer', 'MoE', 'AGI', 'Generative AI', 'AI']
-languages_md = ['LLM', 'ChatGPT','OpenAI', 'Deepseek', 'LLaMA', 'Chatbot', 'AI_Agents', 'Claude', 'RAG', 'Mistral', 'Transformer', 'MoE', 'AGI', 'Generative_AI', 'AI']
-table_of_contents = """
- * [LLM](#LLM)
- * [ChatGPT](#ChatGPT) 
- * [OpenAI](#OpenAI)
- * [Deepseek](#Deepseek)
- * [LLaMA](#LLaMA)
- * [Chatbot](#Chatbot)
- * [AI Agents](#AI_Agents)
- * [Claude](#Claude)
- * [RAG](#RAG)
- * [Mistral](#Mistral)
- * [Transformer](#Transformer)
- * [MoE](#MoE)
- * [AGI](#AGI)
- * [Generative_AI](#Generative_AI)
- * [AI](#AI)
-"""
+
+def category_title(category):
+    return category.get("title", category["name"])
+
+
+def category_query(category):
+    return category.get("query", category["name"])
+
+
+table_of_contents = "\n" + "".join(
+    f" * [{category['name']}](#{category_title(category)})\n"
+    for category in categories
+)
+
 
 class ProcessorGQL(object):
     """
@@ -45,7 +54,7 @@ class ProcessorGQL(object):
     def __init__(self):
         self.gql_format = """query{
     search(query: "%s", type: REPOSITORY, first:%d %s) {
-      pageInfo { endCursor }
+      pageInfo { endCursor hasNextPage }
                 edges {
                     node {
                         ...on Repository {
@@ -103,16 +112,21 @@ class ProcessorGQL(object):
         repos = []
         for i in range(0, self.bulk_count):
             repos_gql = get_graphql_data(qql % cursor)
-            cursor = ', after:"' + repos_gql["data"]["search"]["pageInfo"]["endCursor"] + '"'
+            page_info = repos_gql["data"]["search"]["pageInfo"]
             repos += self.parse_gql_result(repos_gql)
+            if not page_info["hasNextPage"]:
+                break
+            cursor = ', after:"' + page_info["endCursor"] + '"'
         return repos
 
     def get_all_repos(self):
         repos_languages = {}
-        for lang in languages:
-            print("Get most stars repos of {}...".format(lang))
-            repos_languages[lang] = self.get_repos(self.gql_stars_lang % (lang, '%s'))
-            print("Get most stars repos of {} success!".format(lang))
+        for category in categories:
+            name = category["name"]
+            query = category_query(category)
+            print("Get most stars repos of {}...".format(name))
+            repos_languages[name] = self.get_repos(self.gql_stars_lang % (query, '%s'))
+            print("Get most stars repos of {} success!".format(name))
         return repos_languages
 
 
@@ -122,9 +136,9 @@ class WriteFile(object):
         self.col = ['rank', 'item', 'repo_name', 'stars', 'forks', 'language', 'repo_url', 'username', 'issues',
                     'last_commit', 'description']
         self.repo_list = []
-        for i in range(len(languages)):
-            lang = languages[i]
-            lang_md = languages_md[i]
+        for category in categories:
+            lang = category["name"]
+            lang_md = category_title(category)
             self.repo_list.append({
                 "desc": "Forks",
                 "desc_md": "Forks",
