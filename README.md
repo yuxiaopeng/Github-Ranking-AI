@@ -13,6 +13,7 @@
  * [LLaMA](#LLaMA)
  * [Chatbot](#Chatbot)
  * [AI Agents](#AI_Agents)
+ * [Flowly](#Flowly)
  * [Claude](#Claude)
  * [RAG](#RAG)
  * [Mistral](#Mistral)
@@ -146,6 +147,15 @@ This is top 10, for more click **[Top 100 Stars in AI_Agents](Top100/AI Agents.m
 | 8 | [agency-agents](https://github.com/msitarzewski/agency-agents) | 127686 | 20728 | Shell | 46 | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. | 2026-07-05T22:25:10Z |
 | 9 | [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 116583 | 17340 | Python | 0 | 100+ AI Agent & RAG apps you can actually run — clone, customize, ship. | 2026-06-15T01:00:09Z |
 | 10 | [gemini-cli](https://github.com/google-gemini/gemini-cli) | 105789 | 14217 | TypeScript | 1156 | An open-source AI agent that brings the power of Gemini directly into your terminal. | 2026-07-06T01:31:22Z |
+
+
+## Flowly
+
+This is top 10, for more click **[Top 100 Stars in Flowly](Top100/Flowly.md)**
+
+| Ranking | Project Name | Stars | Forks | Language | Open Issues | Description | Last Commit |
+| ------- | ------------ | ----- | ----- | -------- | ----------- | ----------- | ----------- |
+| 1 | [flowly](https://github.com/Nocetic/flowly) | 4 | 0 | Python | 2 | Knows your world. Answers to you. — the open-source personal AI agent you own. | 2026-07-06T10:23:42Z |
 
 
 ## Claude
@@ -290,4 +300,3 @@ This is top 10, for more click **[Top 100 Stars in AI](Top100/AI.md)**
 | 8 | [JavaGuide](https://github.com/Snailclimb/JavaGuide) | 156821 | 46164 | JavaScript | 59 | Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发 | 2026-06-28T22:50:31Z |
 | 9 | [langflow](https://github.com/langflow-ai/langflow) | 151218 | 9447 | Python | 223 | Langflow is a powerful tool for building and deploying AI-powered agents and workflows. | 2026-07-06T00:50:58Z |
 | 10 | [dify](https://github.com/langgenius/dify) | 147841 | 23281 | TypeScript | 282 | Production-ready platform for agentic workflow development. | 2026-07-06T07:16:40Z |
-
