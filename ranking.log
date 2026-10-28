@@ -1,6 +1,6 @@
 -e 
 ----------Run Time:----------
-Tue Oct 27 08:52:42 UTC 2026
+Wed Oct 28 09:32:34 UTC 2026
 auto_run.sh
 Get most stars repos of LLM...
 Requesting query{
@@ -380,7 +380,7 @@ Requesting query{
         }
         ...
 Requesting query{
-    search(query: "AI Agents stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjQ=") {
+    search(query: "AI Agents stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
       pageInfo { endCursor }
                 edges {
                     node {
@@ -612,7 +612,7 @@ Requesting query{
         }
         ...
 Requesting query{
-    search(query: "Transformer stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjQ1") {
+    search(query: "Transformer stars:>0 sort:stars", type: REPOSITORY, first:50 , after:"Y3Vyc29yOjUw") {
       pageInfo { endCursor }
                 edges {
                     node {
@@ -917,7 +917,7 @@ Save Top 100 Stars in Generative_AI in Top100/Generative AI.md!
 Save AI in README.md!
 Save Top 100 Stars in AI in Top100/AI.md!
 
-Save data to Data/github-ranking-2026-10-27.csv
-Total time: 155.699728s
+Save data to Data/github-ranking-2026-10-28.csv
+Total time: 152.948393s
 auto update end
 commit&push start
